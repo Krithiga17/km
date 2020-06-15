@@ -1,143 +1,137 @@
 body {
-  margin: 0;
-  text-align: center;
-  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
 }
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  /* z-index: 1; */
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/*title-image*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  /* z-index:0; */
+  position:absolute;
+  right:30%;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding:5% 15%;
+  color:#fff;
+}
+#footer{
+color:#000;
+padding:5% 15%;
+text-align: center;
+}
+
 
 h1 {
-  margin: 0 auto 0 auto;
-  font-family: 'Tangerine', cursive;
-  font-size: 90px;
-  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
+h2{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-weight: 900;
 
-h2 {
-  color: #66BFBF;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 50px;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
 
-h3 {
-  color: #11999E;
-  font-family: 'Saira Extra Condensed', sans-serif;
 }
-
-a{
-  color:#11999E;
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin:10px 20px;
-  text-decoration: none;
-}
-a:hover{
-  color:#EAFAF6;
-}
-
-hr{
-  border-style: dotted;
-  border-bottom: none;
-  margin:100px auto;
-  width:5%;
-  color:#EAF6F6;
-}
-.top {
-  background-color: #d4f3ef;
-  padding-top: 100px;
-  position: Relative;
-  margin-bottom: 20px;
-}
-.middle{
-margin:100px 0 100px 0;
-}
-.bottom{
-  background-color: #66BFBF;
-  padding: 50px 0 0 20px;
-}
-.contact-message{
-  width:40%;
-  margin:40px auto 60px;
-}
-.intro{
-  margin:30%;
-  margin:auto;
-}
-
-.bottom-cloud {
-  bottom: 300px;
-  left: 350px;
-  padding-bottom: 400px;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 40px;
-  right: 300px;
-}
-.myphoto{
-  position:absolute;
-  margin-top:20px;
-}
-
-.footer-link {
-  color: #11999E;
-  }
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 p{
-  line-height: 2;
+  color:#8f8f8f;
+  font-weight: 500;
 }
-.skill1 {
-  width: 25%;
-  float:left;
-  margin-right: 30px;
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+  padding:1%;
 }
-
-.skill2 {
-  width: 25%;
-  float:right;
-  margin-left: 30px;
+.icon:hover{
+  color:#ff4c68;
 }
-.signature{
-  color:white;
-  font-size: 2 px;
-  padding:20px 0;
-}
-.btn{
-   background: #11CDD4;
-   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   color: #FFFFFF;
-   font-family: Arial;
-   padding: 20px;
-   border: solid #337FED 0;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+/*navigation bar*/
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.btn:hover {
-   border: solid #22BBNAN 1px;
-   background: #30E3CB;
-   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
 }
